@@ -1,0 +1,328 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:Georgia, sans-serif;
+}
+header{
+	border-bottom:  1px solid grey;
+	height: 150px;
+	width: 980px;
+	margin: auto;
+}
+p{
+	margin: 0;
+	color: grey;
+}
+.SS{
+	width: 350px;
+	height: 50px;
+	position: relative;
+	left: 67%;
+	top: -60%
+}
+.Stroka{
+	width: 215px;
+	height: 32px;
+	border-radius: 8px;
+	background: black;
+	float: left;
+
+}
+.SEARCH{
+	font-size: 12pt;
+	color: white;
+	padding: 6.5px 8px 6.5px 8px;
+	background-color: red;
+	text-decoration: none;
+	border-radius: 10px;
+	float: left;
+	margin-left: 5px;
+}
+.htxt{
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	margin-left: 10px;
+}
+.HPNG{
+	width: 300px;
+	height: 50px;
+	float: right;
+	margin: -30px 20px 0px 0px;
+}
+.PNG1,.PNG2,.PNG4,.PNG5{
+	border-radius: 50%;
+	display: block;
+	color: white;
+	text-align: center;
+	position: relative;
+	float: right;
+	margin-left: 15px;
+	text-decoration: none;
+	user-select: none;
+	top: -100%;
+	width: 32px;
+	height: 32px;
+}
+.PNG1{
+	background: url(image/img1.png);
+	background-size: cover;
+}
+.PNG2{
+	background: url(image/img2.png);
+	background-size: cover;
+}
+.PNG3{
+	background: url(image/img3.png);
+	background-size: cover;
+	width: 38px;
+	height: 38px;
+	float: right;
+	position: relative;
+	top: -107%;
+	margin-left: 12px;
+}
+.PNG4{
+	background: url(image/img4.png);
+	background-size: cover;
+}
+
+.PNG5{
+	background: url(image/img5.png);
+	background-size: cover;
+}
+.PNG1:hover{
+	background: url(image/img1.1.png);
+	background-size: cover;
+}
+.PNG2:hover{
+	background: url(image/img2.1.png);
+	background-size: cover;
+}
+.PNG3:hover{
+	background: url(image/img3.1.png);
+	background-size: cover;
+}
+.PNG4:hover{
+	background: url(image/img4.1.png);
+	background-size: cover;
+}
+.PNG5:hover{
+	background: url(image/img5.1.png);
+	background-size: cover;
+}
+.logo{
+	font-size: 25pt;
+	margin: 20px 0px 70px 20px;
+}
+.mainpages{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul,li,.mainpages{
+	display: inline;
+}
+.buttons{
+	margin: 0px 0px 10px 25px;
+	font-size: 12pt;
+	text-decoration: none;
+	user-select: none;
+}
+li.buttons:hover { 
+	color: red; 
+} 
+.body1{
+	border-bottom:  1px solid grey;
+	height: 760px;
+	width: 960px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.bigphoto{
+	width: 960px;
+	height: 450px;
+	background-color: #4F4F4F;
+	margin: auto;
+	margin-top: 50px;
+	position: relative;
+}
+.blockbb{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 500px;
+	height: 150px;
+	background:rgb(0,0,0,0.8);
+	margin: 0px 0px 20px 20px;
+}
+.textbb{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	position: absolute;
+	top: 25%;
+}
+h3{
+	color: grey;
+}
+.Zag1{
+	font-size: 20pt;
+	color: grey;
+	margin: 50px 0px 30px 0px;
+}
+.Zag2{
+	font-size: 20pt;
+	color: grey;
+}
+.textbody1{
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 30px 10px 0px 10px;
+}
+.Zagb1{
+	font-size: 20pt;
+	margin-bottom: 30px;
+	margin: 0;
+}
+.buttons1{
+	margin-top: 20px;
+}
+.READ{
+	color: red;
+	width:105px;
+	padding: 8px 8px 8px 8px;
+	background-color: red;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+a.READ:hover { background: red; } 
+.body2{
+	height: 600px;
+	width: 960px;
+	margin-left: auto;
+    margin-right: auto;
+    border-bottom:  1px solid grey;
+    position: relative;
+    border-bottom: 1px solid grey;
+}
+.textbody2_1{
+	flex-direction: row;
+	width: 460px;
+
+}
+.photo{
+	width: 80px;
+	height: 80px;
+	background-color: black;
+	float: left;
+	border: 2px solid white;
+}
+.textb2{
+	margin-left: 100px;
+}
+.P{
+	font-size: 15pt;
+}
+.Zag{
+	font-size: 15pt;
+	color: red;
+	text-decoration: none;
+	user-select: none;
+	font-weight: bold;
+}
+a.Zag:hover { color: red; }
+.blockb2{
+	flex-direction: column;
+	margin-bottom: 35px;
+}
+.textbody2_2{
+	width: 480px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.photo2{
+	width: 225px;
+	height: 145px;
+	background-color: black;
+	margin-top: 30px;
+	float: left;
+}
+.P1{
+	font-size: 15pt;
+	margin: 30px 0px 0px 250px;
+}
+.P2{
+	font-size: 15pt;
+	margin: 60px 0px 0px 0px;
+}
+#box1{
+	margin-top: 20px;
+	width:105px;
+	height:32px;
+	background-color: red;
+	border-radius: 10px;
+	position: absolute;
+	right: 0;
+}
+.buttons2{
+	position: absolute;
+	right: 0;
+	margin-top: 20px;	
+}
+.Zagb2{
+	font-size: 15pt;
+	margin-top: 50px;
+}
+.txt{
+	font-style: italic;
+	font-size: 150pt;
+	color: lightgrey;
+	position: absolute;
+	top: 95%;
+	right: 87%;	
+}
+.txt1{
+	font-size: 15pt;
+	position: absolute;
+	right: 53%;
+	top: 105%;
+}
+.txt2{
+	color: lightgrey;
+	font-size: 15pt;
+	position: absolute;
+	right: 40%;
+	top: 105%;
+}
+.txt3{
+	color: red;
+	font-size: 13pt;
+	position: absolute;
+	right: 49%;
+	top: 111%;
+	text-decoration: none;
+	user-select: none;
+}
+.txt4{
+	font-size: 15pt;
+	position: absolute;
+	right: 16%;
+	top: 120%;
+	width: 400px;
+	height: 40px;
+}
+footer{
+	margin: auto;
+	height: 55px;
+	width: 980px;
+}
+.ftxt{
+	position: relative;
+	left: 80%;
+	top: 30%;
+}
